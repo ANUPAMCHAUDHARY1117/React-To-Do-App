@@ -1,10 +1,42 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.app{
+  height: 600px;
+  background-image: url('/assets/agenda-blank-checklist-3299.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form{
+  padding-top: 4%;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.heading{
+  margin: auto;
+  padding-top: 16%; 
+  color: black;
+  text-align: center;
+}
+
+.List{
+  list-style: none;
+}
+
+.delete{
+  margin-left: 10px;
+  display: inline;
 }
 
 code {
